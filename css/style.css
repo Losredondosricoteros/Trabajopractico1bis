@@ -441,6 +441,16 @@ h3 {
   .conteiner-main {
     grid-template-columns: 1fr;
   }
+  .barrasup {
+    display: grid;
+    grid-template-columns: 1fr;
+  
+    background-color: var(--color-black);
+    width: 90%;
+    max-width: 1500px;
+    margin: 10px 10px;
+    text-align: start;
+  }
   .container-cards {
     grid-template-columns: repeat(2, 1fr);
   }
