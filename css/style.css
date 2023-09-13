@@ -69,7 +69,7 @@ body {
   display: none;
 }
 
-.header-registro button{
+.header-carrito button{
   display: none;
 }
 .nav-card li{
@@ -77,14 +77,14 @@ body {
   padding: 2px;
   font-family: bold;
 }
-.header-registro i:hover > .buy-card{
+.header-carrito i:hover > .buy-card{
   width: 300px;
   height: 300px;
   position: absolute;
   right: 0;
   background-color: var(--color-white);
 }
-.header-registro i:hover .nav-card{
+.header-carrito i:hover .nav-card{
   font-size:20px;
   color: #000;
   display: flex;
@@ -92,7 +92,7 @@ body {
   margin: 0 10px 0 10px;
   border-bottom: solid thin #e1e1e1;
 }
-.header-registro i:hover .buy-card > button{
+.header-carrito i:hover .buy-card > button{
   display: block;
   width: 90%;
   padding: 1px;
@@ -102,7 +102,7 @@ body {
   color: #494848;
   cursor: pointer;
 }
-.header-registro i:hover .buy-card > button:hover{
+.header-carrito i:hover .buy-card > button:hover{
   border: solid thin #494848;
   cursor: pointer;
 }
@@ -259,12 +259,22 @@ h1 {
 }
 
 /*Comentarios*/
+.coment{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  max-width: 1500px;
+  margin: 20px auto;
+  padding: 40px auto;
+  gap: 12px;
+}
 .comentarios {
   border: 2px solid #000;
  
   background: --webkit-linear-gradient(to right, #c58792, #460717);
   background: linear-gradient(to right, #460717, #c58792);
-  margin-top: 30px;
+  margin-top: 10px;
+  padding: 20px;
 }
 .comentarios h2 {
   font-size: 16px;
