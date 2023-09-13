@@ -10,7 +10,7 @@
 body {
   background: #b66565;
   background: --webkit-linear-gradient(to right, #a52a2a, #b66565);
-  background: linear-gradient(to right,#a52a2a, #b66565);
+  background: linear-gradient(to right,#bb8f3d, #a05e13);
   color: var(--color-white);
   font-family: 'Courier New', Courier, monospace;
   min-height: 100vh;
@@ -52,7 +52,7 @@ body {
 .container-header p {
   font-size: 56px;
   text-align: center;
-  color: #7c0b27;
+  color: #dbc81b;
   font-weight: 900;
 }
 /* Carrito de compras en el header*/
