@@ -9,8 +9,8 @@
 }
 body {
   background: #92dffe;
-  background: --webkit-linear-gradient(to right, #92dffe, #0b2025);
-  background: linear-gradient(to right, #0b2025, #00c9ff);
+  background: --webkit-linear-gradient(to right, #00c9ff, #0b2025);
+  background: linear-gradient(to right, #4e3d22, #ee7455);
   color: var(--color-white);
   font-family: 'Courier New', Courier, monospace;
   min-height: 100vh;
@@ -50,9 +50,9 @@ body {
 }
 /*parrafo Wood Grill del header*/
 .container-header p {
-  font-size: 48px;
+  font-size: 90px;
   text-align: center;
-  color: #7c0b27;
+  color: #f8be73;
   font-weight: 900;
 }
 /* registro en el header*/
