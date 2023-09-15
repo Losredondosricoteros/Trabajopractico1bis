@@ -3,202 +3,234 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajos artesanales en madera y hierro para tu cocina</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://kit.fontawesome.com/ca5b005a55.js" crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<link rel="icon" href="./favicon/favicon-32x32.png">
+    <link rel="icon" href="./favicon/favicon-32x32.png">
 </head>
 
-<body>
-    <!-- Barra de texto superior -->
-    <p class="barrasup">10% OFF abonando en efectivo- Visitas al showroom solo con CITA PREVIA.</p>
-    <!-- Header -->
-    <header class="container-header">
-        <div class="header-logo">
-            <img src="./img/banner2.jpg" alt="logo">
-        </div>
-        <div class="header-nombre">
-            <p>Wood Grill</p>
-        </div>
-        <div class="header-carrito">
-            
-            <i class='bx bx-cart-add bx-md'>
-                <div class="buy-card">
-                    <ul class="nav-card">
-                        <li>Imagen</li>
-                        <li>Nombre</li>
-                        <li>Precio</li>
-                        <li>Cantidad</li>
-                    </ul>
-                    <button>Vaciar carrito</button>
+<body class="grid-container">
+
+<!-- Header -->
+    <header class="header">
+        <div class="header-divisor">
+            <!-- Barra de texto superior -->
+            <div class="header-sup">
+                <p class="barra-sup">10% OFF abonando en efectivo- Visitas al showroom solo con CITA PREVIA.</p>
+            </div>
+
+            <!-- Header inferior -->
+            <div class="header-inferior" >
+
+            <!-- header-logo -->
+                <div class="header-logo">
+                    <img class="flip-scale-up-hor" src="./img/banner2.jpg" width="200px" height="100px" alt="logo">
                 </div>
-            </i>
+                <!-- Nombre -->
+                <div class="header-nombre">
+                    <p>Wood Grill</p>
+                </div>
+                <!-- Carrito de compras -->
+                <div class="header-carrito">
+
+                    <i class='bx bx-cart-add bx-md'>
+                        <div class="buy-card">
+                            <ul class="nav-card">
+                                <li>Imagen</li>
+                                <li>Nombre</li>
+                                <li>Precio</li>
+                                <li>Cantidad</li>
+                            </ul>
+                            <button>Vaciar carrito</button>
+                        </div>
+                    </i>
+                </div>
+            </div>
         </div>
     </header>
-
-    <hr>
-    <!-- Texto principal -->
-    <h1>Artesania en madera y herreria,tablas para picadas </h1>
-
-    <!-- Main -->
-    <main class="conteiner-main">
-        <!-- Nav -->
-        <nav class="banner" >
-            <div>
-            <h3>Sigueme</h3>
+  
+    <!-- navbar -->
+    <nav class="navbar">
+        <div>
+            <h3>Sígueme</h3>
 
             <a href="inicio.html"><button class="button">Inicio</button></a>
             <a href="contacto.html"><button class="button">Contacto</button></a>
-            <a href="quienessomos.html"><button class="button">Quienes somos</button></a>
+            <a href="quienessomos.html"><button class="button">Quiénes somos</button></a>
+            <a href="productos.html"><button class="button">Productos</button></a>
         </div>
-            <div class="form-login">
-                <h5>Formulario Login</h5>
-                <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
-                <input class="controls" type="password" name="contraseña" value="" placeholder="Contraseña">
-                <input class="button-reg" type="submit" value="Ingresar">
-                <p><a href="#">¿Olvidaste tu Contraseña?</a></p>
-                <p><a href="#">Registrarse</a></p>
-            </div>
-        </nav>
-            <!-- Section imagenes de productos -->
-        <section class="container-cards">
-                <!-- Imagen 1 -->
-            <div class="card" style="background-image: url(img/img13.jpg);">
-                <div class="text">
-                    <h3>Tablas</h3>
+    </nav>
 
-                    <button class="boton">Ver mas</button>
+    <main class="main">
+        <div class="main-container">
+            <section class="text-principal">
+<h1>Artesania en madera y herrería,tablas para picadas </h1>
+            </section>
+            <section class="contenedor-img">
+
+                <section class="card-image">
+                    <h3>Oferta</h3>
+                    <img src="img/img1 (16).jpg" alt="">
+                    <h3 class="descripcion-producto">texto</h3>
+                    <div class="precio">
+                        <p>$ 8500</p>
+                        <p>$ 6800</p>
+                    </div>
+                    <button class="boton">Agregar al carrito</button>
+                </section>
+
+                <section class="card-image">
+                    <h3>Oferta</h3>
+                    <img src="img/img1 (24).jpg" alt="">
+                    <h3 class="descripcion-producto">texto</h3>
+                    <div class="precio">
+                        <p>$ 8500</p>
+                        <p>$ 6800</p>
+                    </div>
+                    <button class="boton">Agregar al carrito</button>
+                </section>
+                <section class="card-image">
+                    <h3>Oferta</h3>
+                    <img src="img/img23.jpg" alt="">
+                    <h3 class="descripcion-producto">texto</h3>
+                    <div class="precio">
+                        <p>$ 8500</p>
+                        <p>$ 6800</p>
+                    </div>
+                    <button class="boton">Agregar al carrito</button>
+                </section>
+                <section class="card-image">
+                    <h3>Oferta</h3>
+                    <img src="img/img1 (22).jpg" alt="">
+                    <h3 class="descripcion-producto">texto</h3>
+                    <div class="precio">
+                        <p>$ 8500</p>
+                        <p>$ 6800</p>
+                    </div>
+                    <button class="boton">Agregar al carrito</button>
+                </section>
+                <section class="card-image">
+                    <h3>Oferta</h3>
+                    <img src="img/img1 (12).jpg" alt="">
+                    <h3 class="descripcion-producto">texto</h3>
+                    <div class="precio">
+                        <p>$ 8500</p>
+                        <p>$ 6800</p>
+                    </div>
+                    <button class="boton">Agregar al carrito</button>
+                </section>
+                <section class="card-image">
+                    <h3>Oferta</h3>
+                    <img src="img/img1 (9).jpg" alt="">
+                    <h3 class="descripcion-producto">texto</h3>
+                    <div class="precio">
+                        <p>$ 8500</p>
+                        <p>$ 6800</p>
+                    </div>
+                    <button class="boton">Agregar al carrito</button>
+                </section>
+                <section class="card-image">
+                    <h3>Oferta</h3>
+                    <img src="img/img1 (10).jpg" alt="">
+                    <h3 class="descripcion-producto">texto</h3>
+                    <div class="precio">
+                        <p>$ 8500</p>
+                        <p>$ 6800</p>
+                    </div>
+                    <button class="boton">Agregar al carrito</button>
+                </section>
+                <section class="card-image">
+                    <h3>Oferta</h3>
+                    <img src="img/img1 (11).jpg" alt="">
+                    <h3 class="descripcion-producto">texto</h3>
+                    <div class="precio">
+                        <p>$ 8500</p>
+                        <p>$ 6800</p>
+                    </div>
+                    <button class="boton">Agregar al carrito</button>
+                </section>
+                <section class="card-image">
+                    <h3>Oferta</h3>
+                    <img src="img/img1 (5).jpg" alt="">
+                    <h3 class="descripcion-producto">texto</h3>
+                    <div class="precio">
+                        <p>$ 8500</p>
+                        <p>$ 6800</p>
+                    </div>
+                    <button class="boton">Agregar al carrito</button>
+                </section>
+            </section>
+<hr>
+            <section class="quienes-somos">
+                <div class="presentation">
+                    <div >
+                        <h2>¿Quiénes somos?</h2>
+                    </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia eius quo laboriosam, ex vitae doloribus
+                    commodi tempore iure fuga odio nulla ipsam debitis! Praesentium, consectetur eum? Exercitationem,
+                    delectus
+                    est.
                 </div>
-            </div>
-                <!-- Imagen 2 -->
-            <div class="card" style="background-image: url(img/img31.jpg);">
-                
-                <div class="text">
-                    <h3>Otros artículos</h3>
 
-                    <button class="boton">Ver mas</button>
+            </section>
+            <hr>
+
+            <section class="avisos">
+                <div class="comentarios">
+
+                    <h2>ENVIAMOS TU COMPRA</h2>
+                    <p>Entrega a todo el País</p>
                 </div>
-            </div>
-                <!-- Imagen 3 -->
-            <div class="card" style="background-image: url(img/img23.jpg);">
-                <div class="text">
-                    <h3>Herreria</h3>
-
-                    <button class="boton">ver mas</button>
-                </div>
-            </div>
-            <!-- Comentarios -->
-           
-
-        </section>
         
-    </main>
-    <hr />
-    <section class="coment">
-        <div class="comentarios">
-
-            <h2>ENVIAMOS TU COMPRA</h2>
-            <p>ENTREGA A TODO EL PAIS</p>
-        </div>
-
-        <div class="comentarios">
-            <h2>PAGA COMO QUIERAS</h2>
-            <P>TARJETA DE CREDITO, EFECTIVO O TRANSFERENCIA</P>
-        </div>
-
-        <div class="comentarios">
-            <h2>COMPRA SEGURO</h2>
-            <P>TUS DATOS SIEMPRE PROTEGIDOS</P>
-        </div>
-    </section>
-
-    <hr />
-
-    <!-- Seccion Container info -->
-    <section class="container-info">
-        <div class="presentation">
-            <div class="quienes-somos">
-                <h2>¿Quienes somos?</h2>
-            </div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia eius quo laboriosam, ex vitae doloribus
-            commodi tempore iure fuga odio nulla ipsam debitis! Praesentium, consectetur eum? Exercitationem,
-            delectus
-            est.
-        </div>
-
-        <!-- Formulario -->
-        <div class="form">
-            <input type="email" placeholder="Email">
-            <textarea rows="3" placeholder="Ingresa un comentario"></textarea>
-            <button class="button">Enviar</button>
-        </div>
-    </section>
-
-    <hr />
-
-    <div class="titulos">
-        <div class="donde-estamos">
-            <h2>Donde estamos</h2>
-        </div>
-     <!-- Section donde estamos y ofertas -->
-    </div>
-    <section class="container-images">
-        <div class="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.5398828124153!2d-64.16011042522835!3d-31.426800796753348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2b7c70c10a7%3A0xebf4cbe8abac30c2!2sCarlos%20Pellegrini%204726%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1694202372412!5m2!1ses-419!2sar"
-                width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-
-        <div class="ofertas">
-
-            <div class="card-image">
-                <h3>Oferta</h3>
-                <img src="img/img51.jpg" alt="">
-                <h3 class="descripcion-producto">texto</h3>
-                <div class="precio">
-                    <p>$ 8500</p>
-                    <p>$ 6800</p>
+                <div class="comentarios">
+                    <h2>PAGA COMO QUIERAS</h2>
+                    <P>Targeta de crédito, débito y transferencia</P>
                 </div>
-                <button class="boton">Agregar al carrito</button>
-            </div>
-
-            <div class="card-image">
-                <h3>Oferta</h3>
-                <img src="img/img18.jpg" alt="">
-                <h3 class="descripcion-producto">texto</h3>
-                <div class="precio">
-                    <p>$ 8500</p>
-                    <p>$ 6800</p>
+        
+                <div class="comentarios">
+                    <h2>COMPRA SEGURO</h2>
+                    <P>Tus datos siempre protegidos</P>
                 </div>
-                <button class="boton">Agregar al carrito</button>
-            </div>
+
+            </section>
+
         </div>
-    </section>
-    <!-- Footer -->
-    <footer class="pie-pagina">
-        <!-- Nombre empresa -->
+        </main>
+    <aside class="aside">
+        <div class="form-login">
+            <h5>Formulario Login</h5>
+            <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
+            <input class="controls" type="password" name="contraseña" value="" placeholder="Contraseña">
+            <input class="button-reg" type="submit" value="Ingresar">
+            <p><a href="#">¿Olvidaste tu Contraseña?</a></p>
+            <p><a href="registro.html">Registrarse</a></p>
+        </div>
+    </aside>
+
+    <footer class="footer">
+<!-- <div class="footer-divisor"> -->
         <div class="grupo-1">
             <div class="box">
-                <h1 class="box-logo">Wood Grill</h1>
+                <img class="box-logo" src="img/android-chrome-192x192.png" width="100px"  alt="">
+                
             </div>
             <!-- Contactanos -->
             <div class="box">
-                <h2>Contactanos</h2>
-                <p>Carlos Pellegrini 4726
-
-                    Ciudad Autónoma de Buenos Aires
-
-                    Email: wood-grill@gmail.com.ar</p>
+                <h2>Contáctanos</h2>
+                <ul class="contacto">
+                    <li>Carlos Pellegrini 4726</li>
+                    <li>Ciudad Autónoma de Buenos Aires</li>
+                    <li>Email: wood-grill@gmail.com.ar</li>
+                </ul>
             </div>
+                
             <!-- Redes Sociales -->
             <div class="box">
-                <h2>SEGUINOS EN</h2>
+                <h2>SÍGUENOS EN</h2>
                 <div class="red-social">
                     <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
                     <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
@@ -207,15 +239,30 @@
 
                 </div>
             </div>
+        </div>
+            <div class="grupo-2">
+                <p>2023 <b>wood-grill</b> -Todos los derechos reservados-Defensa del consumidor-Para reclamos
+                    <a href="https://autogestion.produccion.gob.ar/consumidores"
+                        rel="Defensa del consumidor">INGRESE AQUI</a> </p>
+            </div>
+       
     </footer>
-    <!-- Copy -->
-    <div class="grupo-2">
-        <small>&copy; 2023 <b>wood-grill</b> -Todos los derechos reservados-DEFENSA DEL CONSUMIDOR
-            PARA RECLAMOS <a href="https://autogestion.produccion.gob.ar/consumidores"
-                rel="Defensa del consumidor">INGRESE AQUI</a> </p></small>
-
-
+    
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+                    
