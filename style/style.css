@@ -13,7 +13,7 @@ html{
 
 body{
     min-height: 100%;
-    background: linear-gradient(to right,#bb763d, #e47208);
+    background: linear-gradient(to right,#ee0707, #fabb68);
 }
 
 /*Grid container*/
@@ -39,7 +39,7 @@ body{
 }
 
 .header-sup{
-    background-color: black;
+    background-color: rgb(97, 39, 39);
     color: white;
 }
 .header-inferior{
@@ -82,10 +82,10 @@ body{
   }
 /*parrafo Wood Grill del header*/
 .header-inferior p {
-    font-size: 70px;
+    font-size: 90px;
   font-family: sans-serif;
     text-align: center;
-    color: #c25b79;
+    color: #24030c;
    
   }
   /* Carrito de compras en el header*/
@@ -171,7 +171,7 @@ body{
   padding-bottom: 8px;
 }
 .navbar .button {
-  background: rgba(53, 243, 240, .5);
+  background: rgba(248, 204, 7, 0.5);
   border: 3px solid var(--color-black);
   border-radius: 100px;
   color: var(--color-white);
@@ -252,17 +252,17 @@ h3 {
 .card-image .boton{
   padding: 3px;
   width: 100%;
-  background-color: #017bab;
-  border: none;
+  background-color: rgba(226, 152, 41, 0.884);
+  border: 1px solid var(--color-black) ;
   outline: none;
-  color: var(--color-white);
+  color: var(--color-black);
   text-decoration: uppercase;
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 5px;
 }
 .card-image .boton:hover{
-  background-color: #9e5869;
+  background-color: #f82b07;
   transition: all .3s;
 }
 /*Quienens somos*/
@@ -288,7 +288,7 @@ h3 {
 /*Aside*/
 .aside{
     grid-area: aside;
-    background-color: darkorange;
+    background-color: rgb(214, 128, 22);
 }
 /*Formulario Login*/
 .form-login{
