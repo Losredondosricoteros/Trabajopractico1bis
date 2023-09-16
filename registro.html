@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/ca5b005a55.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="./favicon/favicon-32x32.png">
+</head>
+
+<body class="grid-container">
+
+<!-- Header -->
+    <header class="header">
+        <div class="header-divisor">
+            <!-- Barra de texto superior -->
+            <div class="header-sup">
+                <p class="barra-sup">10% OFF abonando en efectivo- Visitas al showroom solo con CITA PREVIA.</p>
+            </div>
+
+            <!-- Header inferior -->
+            <div class="header-inferior">
+
+            <!-- header-logo -->
+                <div class="header-logo">
+                    <img class="flip-scale-up-hor" src="./img/banner2.jpg" width="200px" height="100px" alt="logo">
+                </div>
+                <!-- Nombre -->
+                <div class="header-nombre">
+                    <p>Wood Grill</p>
+                </div>
+                <!-- Carrito de compras -->
+                <div class="header-carrito">
+
+                    <i class='bx bx-cart-add bx-md'>
+                        <div class="buy-card">
+                            <ul class="nav-card">
+                                <li>Imagen</li>
+                                <li>Nombre</li>
+                                <li>Precio</li>
+                                <li>Cantidad</li>
+                            </ul>
+                            <button>Vaciar carrito</button>
+                        </div>
+                    </i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div>
+            <h3>Sígueme</h3>
+
+            <a href="index.html"><button class="button">Inicio</button></a>
+            <a href="contacto.html"><button class="button">Contacto</button></a>
+            <a href="quienessomos.html"><button class="button">Quiénes somos</button></a>
+            <a href="productos.html"><button class="button">Productos</button></a>
+        </div>
+    </nav>
+
+    <main class="main">
+        <section class="formulario">
+            
+            <h1>Formulario de Registro</h1>
+
+           
+                <form action="show_data.html" >
+                    
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <label for="firstname">Nombre:</label>
+                        <input size="30" type="text" name="firstname" id="firstname" placeholder="Ingrese su nombre">
+
+                        <label for="lastname">Apellido:</label>
+                        <input size="30" type="text" name="lastname" id="lastname" placeholder="Ingrese su apellido">
+
+                        <label for="direccion">Direccion:</label>
+                        <input size="30" type="text" name="direccion" id="direccion" placeholder="Ingrese su Direccion">
+
+                        <label for="ciudad">Ciudad:</label>
+                        <input size="30" type="text" name="ciudad" id="ciudad" placeholder="Ingrese su Ciudad">
+                        <br>
+                        <label for="zipcode">Codigo Postal:</label>
+                        <input type="text" name="zipcode" id="zipcode" placeholder="Ingrese su Codigo Postal">
+                        <br>
+                        <label for="tel">Telefono:</label>
+                        <input type="text" name="telefono" id="tel" placeholder="Ingrese su N° de telefono">
+                        <br>
+                        <label for="BirthDate">Fecha de nacimiento:  </label>
+                        <input type="date" name="BirthDate" id="BirthDate" placeholder="Ingrese su fecha de nacimiento">
+                        <br>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" value="email" placeholder="Ingrese su email">
+
+                        <p>Genero:
+                            <input type="radio" name="gender" value="hombre" checked>Hombre
+                            <input type="radio" name="gender" value="mujer">Mujer
+                            <input type="radio" name="gender" value="otro">Otro
+
+                        </p>
+                        
+                        <label for="turno">Horario de contacto</label>
+                        <select name="turno" id="turno">
+                            <option value="mañana">Mañana</option>
+                            <option value="tarde">Tarde</option>
+                            <option value="noche">Noche</option>
+                        </select>
+                        <br>
+
+
+
+                        <input class="submit" type="submit" value="enviar">
+                    </fieldset>
+                </form>
+                <!-- <img class="imagenreg" src="img/imagen2.jpg" alt="chef" width="300px"> -->
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        </main>
+    <aside class="aside">
+        <div class="form-login">
+            <h5>Formulario Login</h5>
+            <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
+            <input class="controls" type="password" name="contraseña" value="" placeholder="Contraseña">
+            <input class="button-reg" type="submit" value="Ingresar">
+            <p><a href="#">¿Olvidaste tu Contraseña?</a></p>
+            <p><a href="registro.html">Registrarse</a></p>
+        </div>
+    </aside>
+
+    <footer class="footer">
+<!-- <div class="footer-divisor"> -->
+        <div class="grupo-1">
+            <div class="box">
+                <img class="box-logo" src="img/android-chrome-192x192.png" width="100px"  alt="">
+                
+            </div>
+            <!-- Contactanos -->
+            <div class="box">
+                <h2>Contáctanos</h2>
+                <ul class="contacto">
+                    <li>Carlos Pellegrini 4726</li>
+                    <li>Ciudad Autónoma de Buenos Aires</li>
+                    <li>Email: wood-grill@gmail.com.ar</li>
+                </ul>
+                
+
+                    
+
+                    
+            </div>
+            <!-- Redes Sociales -->
+            <div class="box">
+                <h2>SÍGUENOS EN</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/?lang=es" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+
+                </div>
+            </div>
+        </div>
+            <div class="grupo-2">
+                <p>2023 <b>wood-grill</b> -Todos los derechos reservados-Defensa del consumidor-Para reclamos
+                    <a href="https://autogestion.produccion.gob.ar/consumidores"
+                        rel="Defensa del consumidor">INGRESE AQUI</a> </p>
+            </div>
+       
+    </footer>
+    
+
+</body>
+
+</html>
